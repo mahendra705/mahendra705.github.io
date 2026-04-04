@@ -11,12 +11,12 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
+                href="https://www.linkedin.com/in/mahendra-kumar-agrawal/"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
               >
-                LinkedIn — akashrmalhotra
+                LinkedIn — mahendra-kumar-agrawal
               </a>
             </p>
             <h4>Education</h4>
@@ -31,7 +31,7 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/akashrmalhotra"
+              href="https://github.com/mahendra705"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -40,7 +40,7 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/akashrmalhotra/"
+              href="https://www.linkedin.com/in/mahendra-kumar-agrawal"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -69,7 +69,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Akash Malhotra</span>
+              Designed and Developed <br /> by <span>Mahendra Agrawal</span>
             </h2>
             <h5>
               <MdCopyright /> 2026
