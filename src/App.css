@@ -1,38 +1,28 @@
-body {
-  margin: 0;
-  font-family: Arial;
-  background: #0f172a;
-  color: white;
+.section-container {
+  width: 1300px;
 }
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background: #020617;
+.title,
+.para {
+  font-kerning: none;
+  -webkit-text-rendering: optimizeSpeed;
+  text-rendering: optimizeSpeed;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
-
-.nav a {
-  margin-left: 15px;
-  color: white;
-  text-decoration: none;
+@media only screen and (max-width: 1600px) {
+  .section-container {
+    width: 1200px;
+    max-width: calc(100% - 160px);
+  }
 }
-
-.hero {
-  text-align: center;
-  padding: 100px 20px;
+@media only screen and (max-width: 1400px) {
+  .section-container {
+    width: 900px;
+  }
 }
-
-button {
-  padding: 10px 20px;
-  background: #38bdf8;
-  border: none;
-  cursor: pointer;
-}
-
-.card {
-  background: #1e293b;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
+@media only screen and (max-width: 900px) {
+  .section-container {
+    width: 500px;
+    max-width: var(--cWidth);
+  }
 }
