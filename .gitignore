@@ -23,6 +23,7 @@ Thumbs.db
 
 # testing
 /coverage
+/dist
 
 # gh-pages (optional)
 .cache

@@ -4,8 +4,6 @@ This repository contains the source code for a personal 3D portfolio built with 
 
 Live site: [https://mahendra705.github.io/](https://mahendra705.github.io/)
 
-![Portfolio Preview](public/images/preview1.png)
-
 ## Table of Contents
 
 - [Features](#features)
