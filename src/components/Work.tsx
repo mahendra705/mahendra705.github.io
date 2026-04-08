@@ -5,32 +5,40 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "AI Research Assistant",
+    category: "RAG-based system for document Q&A",
+    tools: `Built end-to-end RAG pipeline with document ingestion, chunking, and embeddings.
+Implemented semantic search using vector databases for accurate retrieval.
+Optimized context handling and prompt design for high-quality LLM responses.`,
+    image: "/images/code.avif",
+    link: "",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    title: "Agentic AI System",
+    category: "Multi-step AI workflows using LangGraph",
+    tools: `Designed multi-agent workflows with task planning and execution logic.
+Integrated external tools (search, APIs) for autonomous decision making.
+Implemented memory and state management for context-aware reasoning.`,
+    image: "/images/code.avif",
+    link: "",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
+    title: "AI Mock Interview",
+    category: "Real-time AI interviewer with feedback",
+    tools: `Developed full-stack system with real-time question generation and evaluation.
+Integrated speech-to-text and LLM-based answer analysis.
+Built scoring logic and feedback generation using prompt engineering.`,
+    image: "/images/code.avif",
+    link: "",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    title: "AI UI Generator",
+    category: "Converts UI screenshots to React code",
+    tools: `Used multimodal models to interpret UI screenshots and extract structure.
+Generated React components with JSX and styling automatically.
+Focused on improving developer productivity and rapid prototyping.`,
+    image: "/images/code.avif",
+    link: "",
   },
 ];
 
